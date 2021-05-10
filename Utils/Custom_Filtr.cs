@@ -24,7 +24,7 @@ namespace Filtrowanie.Utils
             if (result is PageResult)
             {
                 var page = ((PageResult)result);
-                page.ViewData["filterMessage"] = "Adres IP : " + ((IndexModel)page.Model).IP;
+                page.ViewData["filterMessage"] = "Adres IP : " + ((IndexModel)page.Model).viewData;
 
                
             }
